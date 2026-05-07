@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Connexion - Classical Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Classical Explorer</h1>
+  <nav>
+    <a href="index.html"><button>Accueil</button></a>
+    <a href="oeuvres.html"><button>Œuvres</button></a>
+    <a href="artistes.html"><button>Artistes</button></a>
+    <a href="playlists.html"><button>Playlist</button></a>
+    <a href="explorer_oeuvres.html"><button>Explorer</button></a>
+    <a href="guides.html"><button>Guides</button></a>
+    <a href="profil.html"><button>Profil</button></a>
+  </nav>
+</header>
+
+<section class="section" action="login.php" method="POST">
+  <h2>Connexion</h2>
+  <form class="login-form">
+    <label for="email">Email :</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Mot de passe :</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <button type="submit">Se connecter</button>
+    <div class="link">
+      <p>Pas encore de compte ? <a href="register.html">S'inscrire</a></p>
+    </div>
+  </form>
+  
+</section>
+
+<footer>
+  <p>© 2026 Classical Explorer — Mode Classique</p>
+</footer>
+
+</body>
+</html>

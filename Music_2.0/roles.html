@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Choix</title>
+        <script src="static/app.js"></script>
+    </head>
+    <body>
+        <h2>Que souhaitez-vous faire ?</h2>
+        <select id="role" name="role">
+          <option value="auditor">Écouter de la musique</option>
+          <option value="composer">Créer des œuvres</option>
+          <option value="performer">Interpréter des œuvres</option>
+          <option value="both">Créer + interpréter</option>
+        </select>
+        <button id="click" onclick="nextStep()">Suivant</button> 
+        <form method="POST" action="onboarding.php">
+            <input type="hidden" id="input-role" name="role">
+            <div id="dynamicForm"></div>      
+        </form>
+    </body>
+</html>

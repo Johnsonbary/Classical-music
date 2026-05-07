@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Classical Explorer</h1>
+  <nav>
+    <a href="index.html"><button class="active">Accueil</button></a>
+    <a href="oeuvres.html"><button>Oeuvres</button></a>
+    <a href="artistes.html"><button>Artistes</button></a>
+    <a href="playlists.html"><button>Playlist</button></a>
+    <a href="explorer_oeuvres.html"><button>Explorer</button></a>
+    <a href="guides.html"><button>Guides</button></a>
+    <a href="login.html"><button>Connexion</button></a>
+    <a href="profil.html"><button>Profil</button></a>
+  </nav>
+</header>
+<div class="section">
+    <h2>Créer un compte</h2>
+
+    <form class="login-form" action="register.php" method="POST">
+
+        <input type="text" name="username" placeholder="Nom d'utilisateur" required>
+
+        <input type="email" name="email" placeholder="Email" required>
+
+        <input type="password" name="password" placeholder="Mot de passe" required>
+
+        <button type="submit">S'inscrire</button>
+        <div class="link">
+            <p>Déjà un compte ? <a href="login.html">Se connecter</a></p>
+        </div>
+    </form>
+
+    
+</div>
+
+</body>
+</html>
