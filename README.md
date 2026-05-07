@@ -39,7 +39,7 @@ Music_2.0/
 1. Placer le projet dans le répertoire racine du serveur web ou exécuter un serveur PHP intégré :
 
 ```bash
-cd /home/shutka/Music/Music_2.0
+cd ~/Music_2.0
 php -S localhost:8000
 ```
 
